@@ -1,0 +1,1437 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "email": "pham.thanhh212@gmail.com",
+      "name": "Cô giáo Phạm Thị Thanh",
+      "role": "admin",
+      "approved": true,
+      "passwordHash": "2862fa5c7d7217283ff12911568b6265f8b0c086daedb15cc783f36e47ce965d",
+      "school": "Trường Tiểu học Tiền Phong",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": "usr-teacher-1",
+      "email": "nguyen.hoa@school.edu.vn",
+      "name": "Thầy Nguyễn Văn Hòa",
+      "role": "teacher",
+      "approved": true,
+      "passwordHash": "c75901aac6b2b65bc7c2da7819f33e1623c913743c3fad2e870abc52950e6b7a",
+      "school": "Trường Tiểu học Thăng Long",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "usr-teacher-2",
+      "email": "tran.mai@school.edu.vn",
+      "name": "Cô Trần Thị Mai",
+      "role": "teacher",
+      "approved": true,
+      "passwordHash": "c75901aac6b2b65bc7c2da7819f33e1623c913743c3fad2e870abc52950e6b7a",
+      "school": "Trường Tiểu học Kim Đồng",
+      "createdAt": "2026-04-12"
+    }
+  ],
+  "classes": [
+    {
+      "id": "cls-5a8",
+      "code": "5A8",
+      "name": "Lớp 5A8",
+      "grade": 5,
+      "pin": "2026",
+      "teacherEmail": "pham.thanhh212@gmail.com",
+      "school": "Trường Tiểu học Tiền Phong",
+      "studentCount": 38
+    },
+    {
+      "id": "cls-2",
+      "code": "4A2",
+      "name": "Lớp 4A2",
+      "grade": 4,
+      "pin": "2026",
+      "teacherEmail": "nguyen.hoa@school.edu.vn",
+      "school": "Trường Tiểu học Thăng Long",
+      "studentCount": 34
+    },
+    {
+      "id": "cls-3",
+      "code": "5A1",
+      "name": "Lớp 5A1",
+      "grade": 5,
+      "pin": "2026",
+      "teacherEmail": "pham.thanhh212@gmail.com",
+      "school": "Trường Tiểu học Tiền Phong",
+      "studentCount": 36
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-1",
+      "title": "Bài giảng điện tử: Khởi nghĩa Hai Bà Trưng (Năm 40)",
+      "grade": 4,
+      "lessonCode": "LS4-B03",
+      "lessonTitle": "Khởi nghĩa Hai Bà Trưng và cuộc đấu tranh giành độc lập thời Bắc thuộc",
+      "category": "Bài giảng điện tử",
+      "type": "pptx",
+      "author": "Cô Phạm Thị Thanh (Trường TH Tiền Phong)",
+      "authorEmail": "pham.thanhh212@gmail.com",
+      "date": "2026-03-15",
+      "url": "https://docs.google.com/presentation/d/sample-hai-ba-trung",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "Bộ SGK Lịch sử & Địa lí 4 - Kết nối tri thức",
+      "license": "Giáo dục mở CC BY-NC-SA 4.0",
+      "description": "Bộ slide 24 trang minh họa bằng sơ đồ lược đồ chiến thuật Hát Môn - Mê Linh - Luy Lâu, câu hỏi tương tác cho học sinh.",
+      "downloads": 342,
+      "rating": 4.9
+    },
+    {
+      "id": "mat-2",
+      "title": "Phiếu học tập: Sơ đồ tư duy Chiến thắng Bạch Đằng năm 938",
+      "grade": 4,
+      "lessonCode": "LS4-B04",
+      "lessonTitle": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
+      "category": "Thông tin lịch sử",
+      "type": "pdf",
+      "author": "Cô Phạm Thị Thanh",
+      "authorEmail": "pham.thanhh212@gmail.com",
+      "date": "2026-03-20",
+      "url": "https://storage.googleapis.com/sample-bachdang-worksheet.pdf",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "Bảo tàng Lịch sử Quốc gia & SGK Lớp 4",
+      "license": "Dành cho nhà trường miễn phí",
+      "description": "Phiếu củng cố 5 sự kiện mấu chốt, phân tích vai trò của thủy triều và cọc gỗ lim.",
+      "downloads": 518,
+      "rating": 5
+    },
+    {
+      "id": "mat-3",
+      "title": "Video tư liệu: Di tích Cố đô Huế - Quần thể di sản thế giới",
+      "grade": 5,
+      "lessonCode": "LS5-B08",
+      "lessonTitle": "Triều Nguyễn và di sản văn hóa Cố đô Huế",
+      "category": "Phim lịch sử",
+      "type": "video",
+      "author": "Trung tâm Bảo tồn Di tích Cố đô Huế",
+      "authorEmail": "nguyen.hoa@school.edu.vn",
+      "date": "2026-02-18",
+      "url": "https://www.youtube.com/watch?v=SVCcsqD_BkY",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "Trung tâm Bảo tồn Di tích Cố đô Huế & VTV",
+      "license": "Giấy phép YouTube chuẩn",
+      "description": "Thuyết minh kiến trúc Ngọ Môn, Điện Thái Hòa, Nhã nhạc cung đình Huế thích hợp tiết học lớp 5.",
+      "downloads": 875,
+      "rating": 4.8
+    },
+    {
+      "id": "mat-4",
+      "title": "Tài liệu hướng dẫn: Phân biệt truyền thuyết Thánh Gióng và sử liệu thời Hùng Vương",
+      "grade": 4,
+      "lessonCode": "LS4-B02",
+      "lessonTitle": "Nước Văn Lang và Âu Lạc",
+      "category": "Truyền thuyết",
+      "type": "docx",
+      "author": "ThS. Nguyễn Văn Hùng",
+      "authorEmail": "nguyen.hoa@school.edu.vn",
+      "date": "2026-04-02",
+      "url": "https://storage.googleapis.com/sample-thanh-giong-guide.docx",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "Viện Sử học & GS. Trần Quốc Vượng",
+      "license": "CC BY-NC",
+      "description": "Tài liệu bồi dưỡng năng lực sử học: cách giảng giải cho học sinh hiểu cốt lõi tinh thần chống giặc ngoại xâm trong lớp vỏ truyền thuyết kì ảo.",
+      "downloads": 290,
+      "rating": 4.9
+    },
+    {
+      "id": "mat-5",
+      "title": "Tư liệu khảo cổ: Bản vẽ phục dựng thành Cổ Loa thời An Dương Vương",
+      "grade": 4,
+      "lessonCode": "LS4-B02",
+      "lessonTitle": "Nước Văn Lang và Âu Lạc",
+      "category": "Di tích và hiện vật",
+      "type": "pdf",
+      "author": "Cô Trần Thị Mai",
+      "authorEmail": "tran.mai@school.edu.vn",
+      "date": "2026-04-14",
+      "url": "https://storage.googleapis.com/sample-co-loa-drawing.pdf",
+      "downloadUrl": "",
+      "status": "pending_approval",
+      "source": "Viện Khảo cổ học",
+      "license": "Giáo dục mở",
+      "description": "Bản vẽ chi tiết 3 vòng thành đất, hào nước kết nối sông Hoàng Giang phục vụ tiết học Lịch sử địa phương.",
+      "downloads": 12,
+      "rating": 4.7
+    },
+    {
+      "id": "mat-gm-1",
+      "title": "Game trắc nghiệm: Khám phá bí mật cọc ngầm sông Bạch Đằng năm 938",
+      "grade": 4,
+      "lessonCode": "LS4-B04",
+      "lessonTitle": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
+      "category": "Game trắc nghiệm",
+      "type": "quiz",
+      "author": "Cô Phạm Thị Thanh & Bạn Sử Nhí AI",
+      "authorEmail": "pham.thanhh212@gmail.com",
+      "date": "2026-03-25",
+      "url": "#quiz-2",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "SGK Lịch sử 4 & Đại Việt sử ký toàn thư",
+      "license": "Giáo dục mở",
+      "description": "Thử thách giải mã mưu kế của Ngô Quyền, cọc gỗ lim bịt sắt và quy luật con nước thủy triều.",
+      "downloads": 620,
+      "rating": 5
+    },
+    {
+      "id": "mat-gm-2",
+      "title": "Đố vui Sử nhí: 10 câu hỏi vàng về các Anh hùng dựng nước và giữ nước",
+      "grade": 4,
+      "lessonCode": "LS4-B02",
+      "lessonTitle": "Nước Văn Lang và Âu Lạc",
+      "category": "Game trắc nghiệm",
+      "type": "quiz",
+      "author": "Cô Phạm Thị Thanh",
+      "authorEmail": "pham.thanhh212@gmail.com",
+      "date": "2026-04-02",
+      "url": "#quiz-1",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "Bộ SGK Kết nối tri thức với cuộc sống",
+      "license": "Giáo dục mở",
+      "description": "Bộ câu hỏi trắc nghiệm sinh động có giải thích chi tiết và dẫn nguồn chuẩn xác.",
+      "downloads": 745,
+      "rating": 4.9
+    },
+    {
+      "id": "mat-gm-3",
+      "title": "Thử thách Thám tử lịch sử: Khởi nghĩa Hai Bà Trưng và thời Bắc thuộc",
+      "grade": 4,
+      "lessonCode": "LS4-B03",
+      "lessonTitle": "Khởi nghĩa Hai Bà Trưng và cuộc đấu tranh giành độc lập thời Bắc thuộc",
+      "category": "Game trắc nghiệm",
+      "type": "quiz",
+      "author": "Thầy Nguyễn Văn Hòa",
+      "authorEmail": "nguyen.hoa@school.edu.vn",
+      "date": "2026-03-18",
+      "url": "#quiz-3",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "SGK Lịch sử và Địa lí 4",
+      "license": "Giáo dục mở",
+      "description": "Thám tử Sử nhí truy tìm cứ liệu lịch sử: cửa sông Hát Môn, thành Mê Linh và khởi nghĩa Bà Triệu.",
+      "downloads": 410,
+      "rating": 4.8
+    },
+    {
+      "id": "mat-gm-4",
+      "title": "Game trắc nghiệm: Hành trình 30/4/1975 non sông liền một dải",
+      "grade": 5,
+      "lessonCode": "LS5-B05",
+      "lessonTitle": "Đại thắng mùa Xuân năm 1975",
+      "category": "Game trắc nghiệm",
+      "type": "quiz",
+      "author": "Cô Phạm Thị Thanh",
+      "authorEmail": "pham.thanhh212@gmail.com",
+      "date": "2026-04-10",
+      "url": "#quiz-7",
+      "downloadUrl": "",
+      "status": "published",
+      "source": "SGK Lịch sử 5 & Bảo tàng Lịch sử Quân sự Việt Nam",
+      "license": "Giáo dục mở",
+      "description": "Bộ trắc nghiệm tái hiện Chiến dịch Hồ Chí Minh lịch sử, xe tăng húc đổ cổng Dinh Độc Lập.",
+      "downloads": 530,
+      "rating": 5
+    }
+  ],
+  "periods": [
+    {
+      "Mã": "GD01",
+      "Tên giai đoạn": "Tiền sử và buổi đầu dựng nước",
+      "Thời gian": "Trước thế kỉ II TCN",
+      "Nội dung tiêu biểu": "Văn hóa Đông Sơn; Văn Lang; Âu Lạc",
+      "Nhân vật": "Vua Hùng; An Dương Vương",
+      "Di tích/hiện vật": "Trống Ngọc Lũ; Cổ Loa; Đền Hùng",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD02",
+      "Tên giai đoạn": "Bắc thuộc và đấu tranh giành tự chủ",
+      "Thời gian": "179 TCN–938",
+      "Nội dung tiêu biểu": "Hai Bà Trưng; Bà Triệu; Lý Bí; họ Khúc; Bạch Đằng 938",
+      "Nhân vật": "Hai Bà Trưng; Ngô Quyền",
+      "Di tích/hiện vật": "Di tích Bạch Đằng",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD03",
+      "Tên giai đoạn": "Các triều đại quân chủ độc lập",
+      "Thời gian": "939–1858",
+      "Nội dung tiêu biểu": "Ngô; Đinh; Tiền Lê; Lý; Trần; Hồ; Lê; Mạc; Tây Sơn; Nguyễn",
+      "Nhân vật": "Đinh Bộ Lĩnh; Lý Công Uẩn; Trần Quốc Tuấn; Quang Trung",
+      "Di tích/hiện vật": "Hoàng thành Thăng Long; Văn Miếu; Cố đô Huế",
+      "Nguồn tham khảo": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD04",
+      "Tên giai đoạn": "Chống thực dân Pháp và giành độc lập",
+      "Thời gian": "1858–1945",
+      "Nội dung tiêu biểu": "Phong trào Cần Vương; Đông Du; thành lập Đảng 1930; Cách mạng tháng Tám",
+      "Nhân vật": "Trương Định; Phan Bội Châu; Hồ Chí Minh",
+      "Di tích/hiện vật": "Quảng trường Ba Đình",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD05",
+      "Tên giai đoạn": "Kháng chiến chống thực dân Pháp",
+      "Thời gian": "1945–1954",
+      "Nội dung tiêu biểu": "Toàn quốc kháng chiến; Biên giới 1950; Điện Biên Phủ 1954",
+      "Nhân vật": "Hồ Chí Minh; Võ Nguyên Giáp",
+      "Di tích/hiện vật": "Chiến trường Điện Biên Phủ",
+      "Nguồn tham khảo": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD06",
+      "Tên giai đoạn": "Đấu tranh thống nhất đất nước",
+      "Thời gian": "1954–1975",
+      "Nội dung tiêu biểu": "Hiệp định Paris; Đại thắng mùa Xuân; 30/4/1975",
+      "Nhân vật": "Võ Nguyên Giáp; Nguyễn Thị Định",
+      "Di tích/hiện vật": "Dinh Độc Lập",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD07",
+      "Tên giai đoạn": "Thống nhất và xây dựng đất nước",
+      "Thời gian": "1975–1986",
+      "Nội dung tiêu biểu": "Thống nhất về mặt nhà nước năm 1976; tái thiết, bảo vệ đất nước",
+      "Nhân vật": "Nhân dân Việt Nam",
+      "Di tích/hiện vật": "Tư liệu đời sống thời bao cấp",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "GD08",
+      "Tên giai đoạn": "Đổi mới và hội nhập",
+      "Thời gian": "1986–nay",
+      "Nội dung tiêu biểu": "Đổi mới 1986; gia nhập ASEAN 1995; gia nhập WTO 2007",
+      "Nhân vật": "Nhân dân Việt Nam",
+      "Di tích/hiện vật": "Hình ảnh Việt Nam thời kỳ phát triển",
+      "Nguồn tham khảo": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Cần nguồn bổ sung"
+    }
+  ],
+  "events": [
+    {
+      "Mã": "SK001",
+      "Sự kiện": "Văn Lang hình thành",
+      "Mốc thời gian": "Khoảng thế kỉ VII TCN",
+      "Mã giai đoạn": "GD01",
+      "Dữ kiện tóm tắt": "Gắn với thời đại các Vua Hùng",
+      "Ý nghĩa": "Bước đầu hình thành nhà nước sơ khai",
+      "URL nguồn": "https://baotanglichsu.vn/vi/Articles/1001/19707/bao-vat-quoc-gia-viet-nam-trong-djong-ngoc-lu.html",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK002",
+      "Sự kiện": "Khởi nghĩa Hai Bà Trưng",
+      "Mốc thời gian": "40",
+      "Mã giai đoạn": "GD02",
+      "Dữ kiện tóm tắt": "Hai Bà Trưng lãnh đạo khởi nghĩa",
+      "Ý nghĩa": "Thể hiện ý chí đấu tranh giành độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK003",
+      "Sự kiện": "Khởi nghĩa Bà Triệu",
+      "Mốc thời gian": "248",
+      "Mã giai đoạn": "GD02",
+      "Dữ kiện tóm tắt": "Bà Triệu nổi dậy chống ách đô hộ",
+      "Ý nghĩa": "Tiêu biểu cho tinh thần đấu tranh",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK004",
+      "Sự kiện": "Khởi nghĩa Lý Bí",
+      "Mốc thời gian": "542",
+      "Mã giai đoạn": "GD02",
+      "Dữ kiện tóm tắt": "Lý Bí khởi nghĩa",
+      "Ý nghĩa": "Tiền đề thành lập nhà nước Vạn Xuân",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK005",
+      "Sự kiện": "Chiến thắng Bạch Đằng",
+      "Mốc thời gian": "938",
+      "Mã giai đoạn": "GD02",
+      "Dữ kiện tóm tắt": "Ngô Quyền đánh bại quân Nam Hán",
+      "Ý nghĩa": "Mở ra thời kì độc lập tự chủ",
+      "URL nguồn": "https://baotanglichsu.vn/vi/Articles/3098/13934/ngo-quyen-va-chienthang-bach-dang-nam-938.html",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK006",
+      "Sự kiện": "Ngô Quyền xưng vương",
+      "Mốc thời gian": "939",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Thiết lập chính quyền tự chủ",
+      "Ý nghĩa": "Củng cố nền độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK007",
+      "Sự kiện": "Đinh Bộ Lĩnh thống nhất đất nước",
+      "Mốc thời gian": "968",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Thống nhất sau loạn 12 sứ quân",
+      "Ý nghĩa": "Thành lập nhà Đinh, quốc hiệu Đại Cồ Việt",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK008",
+      "Sự kiện": "Kháng chiến chống Tống",
+      "Mốc thời gian": "981",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Gắn với Lê Hoàn",
+      "Ý nghĩa": "Bảo vệ nền độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK009",
+      "Sự kiện": "Dời đô ra Thăng Long",
+      "Mốc thời gian": "1010",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Lý Công Uẩn dời đô",
+      "Ý nghĩa": "Thăng Long trở thành trung tâm chính trị quan trọng",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK010",
+      "Sự kiện": "Dựng Văn Miếu",
+      "Mốc thời gian": "1070",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Xây dựng Văn Miếu",
+      "Ý nghĩa": "Biểu tượng truyền thống giáo dục",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK011",
+      "Sự kiện": "Thành lập Quốc Tử Giám",
+      "Mốc thời gian": "1076",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Cơ sở giáo dục thời Lý",
+      "Ý nghĩa": "Gắn với lịch sử giáo dục Việt Nam",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK012",
+      "Sự kiện": "Ba lần kháng chiến chống Mông – Nguyên",
+      "Mốc thời gian": "Thế kỉ XIII",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Thời Trần",
+      "Ý nghĩa": "Bảo vệ độc lập và chủ quyền",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK013",
+      "Sự kiện": "Khởi nghĩa Lam Sơn thắng lợi",
+      "Mốc thời gian": "1427–1428",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Gắn với Lê Lợi, Nguyễn Trãi",
+      "Ý nghĩa": "Chấm dứt sự đô hộ của nhà Minh",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK014",
+      "Sự kiện": "Chiến thắng Ngọc Hồi – Đống Đa",
+      "Mốc thời gian": "1789",
+      "Mã giai đoạn": "GD03",
+      "Dữ kiện tóm tắt": "Quang Trung lãnh đạo đánh quân Thanh",
+      "Ý nghĩa": "Giữ vững độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK015",
+      "Sự kiện": "Liên quân Pháp – Tây Ban Nha tấn công Đà Nẵng",
+      "Mốc thời gian": "1858",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Mở đầu cuộc xâm lược của thực dân Pháp",
+      "Ý nghĩa": "Bước ngoặt lịch sử cận đại",
+      "URL nguồn": "https://baotanglichsu.vn/vi/Articles/4052/cuoc-djau-tranh-gianh-djoc-lap-cua-dan-toc-viet-nam-1858-1945",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK016",
+      "Sự kiện": "Phong trào Cần Vương bắt đầu",
+      "Mốc thời gian": "1885",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Phong trào chống thực dân Pháp",
+      "Ý nghĩa": "Tiêu biểu cho tinh thần yêu nước",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK017",
+      "Sự kiện": "Nguyễn Tất Thành ra đi tìm đường cứu nước",
+      "Mốc thời gian": "1911",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Hành trình tìm con đường giải phóng dân tộc",
+      "Ý nghĩa": "Mốc quan trọng trong cuộc đời Nguyễn Ái Quốc",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK018",
+      "Sự kiện": "Đảng Cộng sản Việt Nam thành lập",
+      "Mốc thời gian": "1930",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Sự kiện chính trị quan trọng",
+      "Ý nghĩa": "Tác động đến tiến trình lịch sử Việt Nam",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK019",
+      "Sự kiện": "Cách mạng tháng Tám",
+      "Mốc thời gian": "8/1945",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Tổng khởi nghĩa giành chính quyền",
+      "Ý nghĩa": "Dẫn tới thành lập nước Việt Nam Dân chủ Cộng hòa",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK020",
+      "Sự kiện": "Tuyên ngôn Độc lập",
+      "Mốc thời gian": "2/9/1945",
+      "Mã giai đoạn": "GD04",
+      "Dữ kiện tóm tắt": "Hồ Chí Minh đọc tại Quảng trường Ba Đình",
+      "Ý nghĩa": "Tuyên bố nền độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK021",
+      "Sự kiện": "Toàn quốc kháng chiến",
+      "Mốc thời gian": "12/1946",
+      "Mã giai đoạn": "GD05",
+      "Dữ kiện tóm tắt": "Bắt đầu cuộc kháng chiến trên phạm vi toàn quốc",
+      "Ý nghĩa": "Bảo vệ nền độc lập",
+      "URL nguồn": "https://baotanglichsu.vn/vi/Articles/4055/cuoc-khang-chien-chong-thuc-dan-phap-1946-1954",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK022",
+      "Sự kiện": "Chiến dịch Biên giới",
+      "Mốc thời gian": "1950",
+      "Mã giai đoạn": "GD05",
+      "Dữ kiện tóm tắt": "Chiến dịch trong kháng chiến chống Pháp",
+      "Ý nghĩa": "Bước phát triển của cuộc kháng chiến",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK023",
+      "Sự kiện": "Chiến thắng Điện Biên Phủ",
+      "Mốc thời gian": "7/5/1954",
+      "Mã giai đoạn": "GD05",
+      "Dữ kiện tóm tắt": "Chiến dịch Điện Biên Phủ",
+      "Ý nghĩa": "Bước ngoặt của kháng chiến chống Pháp",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-chien-truong-dien-bien-phu-bo-sung-23-diem-di-tich-1537",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK024",
+      "Sự kiện": "Hiệp định Genève",
+      "Mốc thời gian": "1954",
+      "Mã giai đoạn": "GD06",
+      "Dữ kiện tóm tắt": "Đất nước tạm thời chia cắt",
+      "Ý nghĩa": "Bối cảnh lịch sử giai đoạn 1954–1975",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK025",
+      "Sự kiện": "Tổng tiến công Tết Mậu Thân",
+      "Mốc thời gian": "1968",
+      "Mã giai đoạn": "GD06",
+      "Dữ kiện tóm tắt": "Sự kiện tiêu biểu trong chiến tranh",
+      "Ý nghĩa": "Tác động đến cục diện chiến tranh",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK026",
+      "Sự kiện": "Hiệp định Paris",
+      "Mốc thời gian": "1973",
+      "Mã giai đoạn": "GD06",
+      "Dữ kiện tóm tắt": "Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam",
+      "Ý nghĩa": "Mốc quan trọng trong tiến trình chấm dứt chiến tranh",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK027",
+      "Sự kiện": "Chiến dịch Hồ Chí Minh",
+      "Mốc thời gian": "26–30/4/1975",
+      "Mã giai đoạn": "GD06",
+      "Dữ kiện tóm tắt": "Chiến dịch cuối cùng trong cuộc chiến tranh",
+      "Ý nghĩa": "Kết thúc chiến tranh",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK028",
+      "Sự kiện": "Ngày 30/4/1975",
+      "Mốc thời gian": "30/4/1975",
+      "Mã giai đoạn": "GD06",
+      "Dữ kiện tóm tắt": "Chiến tranh kết thúc",
+      "Ý nghĩa": "Mở đường thống nhất đất nước về mặt nhà nước",
+      "URL nguồn": "https://baotanglichsu.vn/VI/Articles/3097/18025/ngay-djat-nuoc-thong-nhat-30-4-1975-voi-su-ra-djoi-cua-buc-anh-me-con-ngay-gap-mat.html",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK029",
+      "Sự kiện": "Thống nhất đất nước về mặt nhà nước",
+      "Mốc thời gian": "1976",
+      "Mã giai đoạn": "GD07",
+      "Dữ kiện tóm tắt": "Hoàn thành thống nhất nhà nước",
+      "Ý nghĩa": "Tạo cơ sở xây dựng đất nước thống nhất",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK030",
+      "Sự kiện": "Khởi đầu công cuộc Đổi mới",
+      "Mốc thời gian": "1986",
+      "Mã giai đoạn": "GD08",
+      "Dữ kiện tóm tắt": "Đại hội VI Đảng Cộng sản Việt Nam",
+      "Ý nghĩa": "Mở đầu công cuộc Đổi mới",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK031",
+      "Sự kiện": "Việt Nam gia nhập ASEAN",
+      "Mốc thời gian": "1995",
+      "Mã giai đoạn": "GD08",
+      "Dữ kiện tóm tắt": "Hội nhập khu vực",
+      "Ý nghĩa": "Mốc hội nhập quan trọng",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "SK032",
+      "Sự kiện": "Việt Nam gia nhập WTO",
+      "Mốc thời gian": "2007",
+      "Mã giai đoạn": "GD08",
+      "Dữ kiện tóm tắt": "Hội nhập thương mại quốc tế",
+      "Ý nghĩa": "Mốc hội nhập kinh tế",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    }
+  ],
+  "figures": [
+    {
+      "Mã": "NV01",
+      "Nhân vật": "Các Vua Hùng",
+      "Giai đoạn": "GD01",
+      "Đóng góp/sự kiện": "Thời đại dựng nước Văn Lang",
+      "Địa danh liên quan": "Đền Hùng",
+      "Ghi chú loại hình": "Hình tượng lịch sử – truyền thống; cần phân biệt truyền thuyết",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV02",
+      "Nhân vật": "An Dương Vương",
+      "Giai đoạn": "GD01",
+      "Đóng góp/sự kiện": "Nước Âu Lạc, thành Cổ Loa",
+      "Địa danh liên quan": "Cổ Loa",
+      "Ghi chú loại hình": "Nhiều chi tiết gắn với truyền thuyết",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-kien-truc-nghe-thuat-va-khao-co-co-loa-2958",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV03",
+      "Nhân vật": "Hai Bà Trưng",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Khởi nghĩa năm 40",
+      "Địa danh liên quan": "Đền thờ Hai Bà Trưng",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV04",
+      "Nhân vật": "Bà Triệu",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Khởi nghĩa năm 248",
+      "Địa danh liên quan": "Thanh Hóa",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV05",
+      "Nhân vật": "Lý Bí",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Khởi nghĩa năm 542",
+      "Địa danh liên quan": "Di tích liên quan",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV06",
+      "Nhân vật": "Mai Thúc Loan",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Phong trào đấu tranh thời Bắc thuộc",
+      "Địa danh liên quan": "Nghệ An",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV07",
+      "Nhân vật": "Phùng Hưng",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Đấu tranh chống đô hộ",
+      "Địa danh liên quan": "Di tích liên quan",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV08",
+      "Nhân vật": "Ngô Quyền",
+      "Giai đoạn": "GD02",
+      "Đóng góp/sự kiện": "Chiến thắng Bạch Đằng năm 938",
+      "Địa danh liên quan": "Bạch Đằng",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi/Articles/3098/13934/ngo-quyen-va-chienthang-bach-dang-nam-938.html",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV09",
+      "Nhân vật": "Đinh Bộ Lĩnh",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Thống nhất đất nước 968",
+      "Địa danh liên quan": "Hoa Lư",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV10",
+      "Nhân vật": "Lê Hoàn",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Kháng chiến chống Tống 981",
+      "Địa danh liên quan": "Hoa Lư",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV11",
+      "Nhân vật": "Lý Công Uẩn",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Dời đô năm 1010",
+      "Địa danh liên quan": "Thăng Long",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV12",
+      "Nhân vật": "Lý Thường Kiệt",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Lịch sử bảo vệ đất nước thời Lý",
+      "Địa danh liên quan": "Di tích liên quan",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV13",
+      "Nhân vật": "Trần Quốc Tuấn",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Kháng chiến chống Mông – Nguyên",
+      "Địa danh liên quan": "Di tích thời Trần",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV14",
+      "Nhân vật": "Trần Nhân Tông",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Thời Trần",
+      "Địa danh liên quan": "Yên Tử",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV15",
+      "Nhân vật": "Lê Lợi",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Khởi nghĩa Lam Sơn",
+      "Địa danh liên quan": "Lam Kinh",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV16",
+      "Nhân vật": "Nguyễn Trãi",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Khởi nghĩa Lam Sơn; văn hóa",
+      "Địa danh liên quan": "Côn Sơn",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV17",
+      "Nhân vật": "Quang Trung – Nguyễn Huệ",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Chiến thắng năm 1789",
+      "Địa danh liên quan": "Đống Đa",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV18",
+      "Nhân vật": "Nguyễn Du",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Di sản văn học",
+      "Địa danh liên quan": "Hà Tĩnh",
+      "Ghi chú loại hình": "Nhân vật văn hóa",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV19",
+      "Nhân vật": "Gia Long",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Thành lập triều Nguyễn năm 1802",
+      "Địa danh liên quan": "Huế",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV20",
+      "Nhân vật": "Minh Mạng",
+      "Giai đoạn": "GD03",
+      "Đóng góp/sự kiện": "Vua nhà Nguyễn",
+      "Địa danh liên quan": "Huế",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV21",
+      "Nhân vật": "Trương Định",
+      "Giai đoạn": "GD04",
+      "Đóng góp/sự kiện": "Kháng chiến chống Pháp",
+      "Địa danh liên quan": "Nam Bộ",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV22",
+      "Nhân vật": "Nguyễn Trung Trực",
+      "Giai đoạn": "GD04",
+      "Đóng góp/sự kiện": "Kháng chiến chống Pháp",
+      "Địa danh liên quan": "Nam Bộ",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV23",
+      "Nhân vật": "Phan Đình Phùng",
+      "Giai đoạn": "GD04",
+      "Đóng góp/sự kiện": "Phong trào Cần Vương",
+      "Địa danh liên quan": "Hà Tĩnh",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV24",
+      "Nhân vật": "Phan Bội Châu",
+      "Giai đoạn": "GD04",
+      "Đóng góp/sự kiện": "Phong trào yêu nước đầu thế kỉ XX",
+      "Địa danh liên quan": "Nghệ An",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV25",
+      "Nhân vật": "Phan Châu Trinh",
+      "Giai đoạn": "GD04",
+      "Đóng góp/sự kiện": "Phong trào duy tân",
+      "Địa danh liên quan": "Quảng Nam",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV26",
+      "Nhân vật": "Hồ Chí Minh",
+      "Giai đoạn": "GD04–GD06",
+      "Đóng góp/sự kiện": "Cách mạng 1945; lịch sử Việt Nam hiện đại",
+      "Địa danh liên quan": "Bảo tàng Hồ Chí Minh",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV27",
+      "Nhân vật": "Võ Nguyên Giáp",
+      "Giai đoạn": "GD05–GD06",
+      "Đóng góp/sự kiện": "Kháng chiến chống Pháp và giai đoạn sau",
+      "Địa danh liên quan": "Điện Biên Phủ",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "NV28",
+      "Nhân vật": "Nguyễn Thị Định",
+      "Giai đoạn": "GD06",
+      "Đóng góp/sự kiện": "Giai đoạn đấu tranh thống nhất",
+      "Địa danh liên quan": "Bến Tre",
+      "Ghi chú loại hình": "Nhân vật lịch sử",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    }
+  ],
+  "relics": [
+    {
+      "Mã": "DT01",
+      "Tên di tích": "Đền Hùng",
+      "Địa điểm": "Phú Thọ",
+      "Giai đoạn": "GD01",
+      "Giá trị liên quan": "Di tích gắn với tín ngưỡng thờ cúng Hùng Vương",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT02",
+      "Tên di tích": "Thành Cổ Loa",
+      "Địa điểm": "Hà Nội",
+      "Giai đoạn": "GD01",
+      "Giá trị liên quan": "Di tích khảo cổ và thành cổ Âu Lạc",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-kien-truc-nghe-thuat-va-khao-co-co-loa-2958",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT03",
+      "Tên di tích": "Khu di tích Bạch Đằng",
+      "Địa điểm": "Vùng sông Bạch Đằng",
+      "Giai đoạn": "GD02",
+      "Giá trị liên quan": "Gắn với các chiến thắng trên sông Bạch Đằng",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT04",
+      "Tên di tích": "Hoàng thành Thăng Long",
+      "Địa điểm": "Hà Nội",
+      "Giai đoạn": "GD03",
+      "Giá trị liên quan": "Di sản qua nhiều triều đại",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT05",
+      "Tên di tích": "Văn Miếu – Quốc Tử Giám",
+      "Địa điểm": "Hà Nội",
+      "Giai đoạn": "GD03",
+      "Giá trị liên quan": "Di tích giáo dục truyền thống",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT06",
+      "Tên di tích": "Quần thể Cố đô Huế",
+      "Địa điểm": "Huế",
+      "Giai đoạn": "GD03",
+      "Giá trị liên quan": "Di tích triều Nguyễn",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-quan-the-kien-truc-co-do-hue-2944",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT07",
+      "Tên di tích": "Quảng trường Ba Đình",
+      "Địa điểm": "Hà Nội",
+      "Giai đoạn": "GD04",
+      "Giá trị liên quan": "Nơi đọc Tuyên ngôn Độc lập năm 1945",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT08",
+      "Tên di tích": "Chiến trường Điện Biên Phủ",
+      "Địa điểm": "Điện Biên",
+      "Giai đoạn": "GD05",
+      "Giá trị liên quan": "Di tích quốc gia đặc biệt về chiến dịch 1954",
+      "URL nguồn": "https://dsvh.gov.vn/di-tich-lich-su-chien-truong-dien-bien-phu-bo-sung-23-diem-di-tich-1537",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT09",
+      "Tên di tích": "Dinh Độc Lập",
+      "Địa điểm": "TP. Hồ Chí Minh",
+      "Giai đoạn": "GD06",
+      "Giá trị liên quan": "Gắn với ngày 30/4/1975",
+      "URL nguồn": "https://baotanglichsu.vn/vi",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    },
+    {
+      "Mã": "DT10",
+      "Tên di tích": "Địa đạo Củ Chi",
+      "Địa điểm": "TP. Hồ Chí Minh",
+      "Giai đoạn": "GD06",
+      "Giá trị liên quan": "Di tích thời chiến tranh",
+      "URL nguồn": "https://dsvh.gov.vn",
+      "Trạng thái": "Chờ giáo viên duyệt"
+    }
+  ],
+  "media": [
+    {
+      "id": "HA01",
+      "title": "Trống đồng Ngọc Lũ",
+      "type": "image",
+      "url": "https://baotanglichsu.vn/vi/Articles/1001/19707/bao-vat-quoc-gia-viet-nam-trong-djong-ngoc-lu.html",
+      "thumbnailUrl": null,
+      "caption": "Hiện vật bảo tàng - Trống đồng Ngọc Lũ",
+      "source": "Bảo tàng Lịch sử quốc gia",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD01",
+      "category": "Hiện vật bảo tàng",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA02",
+      "title": "Thành Cổ Loa",
+      "type": "image",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-kien-truc-nghe-thuat-va-khao-co-co-loa-2958",
+      "thumbnailUrl": null,
+      "caption": "Ảnh di tích - Thành Cổ Loa",
+      "source": "Cục Di sản văn hóa",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD01",
+      "category": "Ảnh di tích",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA03",
+      "title": "Văn Miếu – Quốc Tử Giám",
+      "type": "image",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-van-mieu-quoc-tu-giam-2953",
+      "thumbnailUrl": null,
+      "caption": "Ảnh di tích - Văn Miếu – Quốc Tử Giám",
+      "source": "Cục Di sản văn hóa",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD03",
+      "category": "Ảnh di tích",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA04",
+      "title": "Quần thể Cố đô Huế",
+      "type": "image",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-va-kien-truc-nghe-thuat-quan-the-kien-truc-co-do-hue-2944",
+      "thumbnailUrl": null,
+      "caption": "Ảnh di tích - Quần thể Cố đô Huế",
+      "source": "Cục Di sản văn hóa",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD03",
+      "category": "Ảnh di tích",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA05",
+      "title": "Chiến trường Điện Biên Phủ",
+      "type": "image",
+      "url": "https://dsvh.gov.vn/di-tich-lich-su-chien-truong-dien-bien-phu-bo-sung-23-diem-di-tich-1537",
+      "thumbnailUrl": null,
+      "caption": "Ảnh di tích/hiện vật - Chiến trường Điện Biên Phủ",
+      "source": "Cục Di sản văn hóa",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD05",
+      "category": "Ảnh di tích/hiện vật",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA06",
+      "title": "Ảnh Mẹ con ngày gặp mặt",
+      "type": "image",
+      "url": "https://baotanglichsu.vn/VI/Articles/3097/18025/ngay-djat-nuoc-thong-nhat-30-4-1975-voi-su-ra-djoi-cua-buc-anh-me-con-ngay-gap-mat.html",
+      "thumbnailUrl": null,
+      "caption": "Ảnh tư liệu - Ảnh Mẹ con ngày gặp mặt",
+      "source": "Bảo tàng Lịch sử quốc gia",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD06",
+      "category": "Ảnh tư liệu",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    },
+    {
+      "id": "HA07",
+      "title": "Hiện vật thời bao cấp",
+      "type": "image",
+      "url": "https://baotanglichsu.vn/vi/Articles/4087/hien-vat-thoi-ky-bao-cap-truoc-nam-1985",
+      "thumbnailUrl": null,
+      "caption": "Hiện vật - Hiện vật thời bao cấp",
+      "source": "Bảo tàng Lịch sử quốc gia",
+      "author": "Cô Phạm Thị Thanh",
+      "periodCode": "GD07",
+      "category": "Hiện vật",
+      "license": "Chưa xác minh quyền",
+      "uploadedAt": "2026-04-20"
+    }
+  ],
+  "articles": [],
+  "revisions": [],
+  "movies": [
+    {
+      "id": "mov-1",
+      "title": "Hoạt hình lịch sử: Chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
+      "category": "animation",
+      "categoryLabel": "Hoạt hình lịch sử",
+      "grade": 4,
+      "period": "Bắc thuộc & Tự chủ",
+      "duration": "14 phút 25 giây",
+      "thumbnailColor": "from-amber-700 to-amber-900",
+      "summary": "Tái hiện sinh động kế sách cắm bãi cọc gỗ lim bịt sắt xuống lòng sông Bạch Đằng, nắm bắt quy luật con nước thủy triều để dụ địch và tiêu diệt toàn bộ thủy quân Nam Hán của Lưu Hoằng Tháo, chấm dứt hơn 1000 năm Bắc thuộc.",
+      "source": "Dự án phim Lịch sử Việt Sử Kiêu Hùng & Ban cố vấn Sử học",
+      "videoUrl": "https://www.youtube.com/watch?v=KWQqgkpV74k",
+      "preQuestions": [
+        "Ngô Quyền đã chọn dòng sông nào và địa hình hiểm yếu nào để đón đánh quân xâm lược Nam Hán?",
+        "Vì sao việc nắm vững quy luật con nước thủy triều lại là mấu chốt tạo nên đại thắng Bạch Đằng?"
+      ],
+      "postQuestions": [
+        "Chiến thắng Bạch Đằng năm 938 có ý nghĩa bước ngoặt lịch sử thế nào đối với nền độc lập muôn đời của dân tộc?",
+        "Em học tập được điều gì từ tài mưu lược quân sự và lòng yêu nước của Anh hùng dân tộc Ngô Quyền?"
+      ]
+    },
+    {
+      "id": "mov-2",
+      "title": "Phim 3D lịch sử: Nỏ thần An Dương Vương và Thành ốc Cổ Loa",
+      "category": "animation",
+      "categoryLabel": "Hoạt hình lịch sử",
+      "grade": 4,
+      "period": "Buổi đầu dựng nước",
+      "duration": "12 phút 10 giây",
+      "thumbnailColor": "from-teal-700 to-emerald-900",
+      "summary": "Khám phá thành tựu kỹ thuật quân sự đỉnh cao thời Âu Lạc với kiến trúc 3 vòng thành đất xoắn ốc Cổ Loa kiên cố và nỏ thần bắn cùng lúc nhiều mũi tên đồng Cầu Vực.",
+      "source": "Truyền hình Giáo dục & Viện Khảo cổ học Việt Nam",
+      "videoUrl": "https://www.youtube.com/watch?v=3a2rGErvDmc",
+      "preQuestions": [
+        "Thành Cổ Loa do vị vua nào cho khởi công xây dựng và có hình dạng kiến trúc đặc biệt gì?",
+        "Kho hiện vật hàng vạn mũi tên đồng tìm thấy ở Cổ Loa chứng minh điều gì về tài năng của người Việt cổ?"
+      ],
+      "postQuestions": [
+        "Phân biệt yếu tố huyền thoại 'Rùa vàng trao móng' với thành tựu kỹ thuật quân sự chế tạo nỏ bắn liên thanh của An Dương Vương và tướng Cao Lỗ.",
+        "Bài học lịch sử sâu sắc về tinh thần cảnh giác bảo vệ chủ quyền non sông đất nước qua câu chuyện thành Cổ Loa là gì?"
+      ]
+    },
+    {
+      "id": "mov-3",
+      "title": "Hoạt hình lịch sử 3D: Lời thề sông Hát – Khởi nghĩa Hai Bà Trưng",
+      "category": "animation",
+      "categoryLabel": "Hoạt hình lịch sử",
+      "grade": 4,
+      "period": "Bắc thuộc & Tự chủ",
+      "duration": "10 phút 30 giây",
+      "thumbnailColor": "from-rose-700 to-red-900",
+      "summary": "Hình tượng Trưng Trắc cùng Trưng Nhị cưỡi voi phất cờ khởi nghĩa tại cửa sông Hát năm 40, quét sạch ách đô hộ tàn bạo của thái thú Tô Định, giành lại quyền tự chủ đầu tiên thời Bắc thuộc.",
+      "source": "Hãng phim Hoạt hình Việt Nam & Đài Phát thanh Truyền hình",
+      "videoUrl": "https://www.youtube.com/watch?v=dMV1AFed8F4",
+      "preQuestions": [
+        "Hai Bà Trưng đã dựng cờ khởi nghĩa xuất quân tại đâu và vào năm nào?",
+        "Bốn câu thơ trong lời thề xuất quân ('Một xin rửa sạch nước thù...') thể hiện quyết tâm gì?"
+      ],
+      "postQuestions": [
+        "Sau khi đuổi giặc ngoại xâm, Trưng Trắc đã lên ngôi vua và đóng đô ở vùng đất nào?",
+        "Hình ảnh Hai Bà Trưng cưỡi voi ra trận khơi dậy cho em niềm tự hào gì về truyền thống anh hùng của phụ nữ Việt Nam?"
+      ]
+    },
+    {
+      "id": "mov-4",
+      "title": "Thước phim tư liệu lịch sử: Toàn văn Bác Hồ đọc Tuyên ngôn Độc lập ngày 2-9-1945",
+      "category": "documentary",
+      "categoryLabel": "Thước phim tư liệu quý",
+      "grade": 5,
+      "period": "Giai đoạn 1858–1945",
+      "duration": "9 phút 15 giây",
+      "thumbnailColor": "from-amber-600 to-red-800",
+      "summary": "Thước phim tư liệu màu quý báu ghi lại hình ảnh Chủ tịch Hồ Chí Minh đọc bản Tuyên ngôn Độc lập tại Quảng trường Ba Đình lịch sử, khai sinh nước Việt Nam Dân chủ Cộng hòa trước hàng chục vạn đồng bào.",
+      "source": "Trung tâm Phim Tài liệu VTV & Cục Lưu trữ Văn thư Quốc gia",
+      "videoUrl": "https://www.youtube.com/watch?v=xRKUB3fUTJM",
+      "preQuestions": [
+        "Sự kiện lịch sử trọng đại ngày 2/9/1945 diễn ra tại địa danh nào của Thủ đô Hà Nội?",
+        "Câu nói ân cần, gần gũi nào của Bác Hồ trong buổi lễ đã kết nối hàng triệu trái tim người Việt Nam?"
+      ],
+      "postQuestions": [
+        "Bản Tuyên ngôn Độc lập năm 1945 đã khẳng định những quyền cơ bản thiêng liêng nào của dân tộc ta?",
+        "Cảm nghĩ và niềm tự hào của em là học sinh tiểu học hôm nay khi được sống trong một đất nước độc lập, tự do?"
+      ]
+    },
+    {
+      "id": "mov-5",
+      "title": "Phim tài liệu toàn cảnh: 56 ngày đêm Chiến dịch Điện Biên Phủ (1954)",
+      "category": "documentary",
+      "categoryLabel": "Phim tư liệu quý",
+      "grade": 5,
+      "period": "Kháng chiến chống Pháp",
+      "duration": "15 phút 40 giây",
+      "thumbnailColor": "from-cyan-800 to-blue-950",
+      "summary": "Toàn cảnh chiến dịch Điện Biên Phủ lừng lẫy năm châu, chấn động địa cầu; tái hiện nghệ thuật quân sự tài tình của Đại tướng Võ Nguyên Giáp và tinh thần chiến đấu quả cảm của anh hùng Tô Vĩnh Diện, Phan Đình Giót, Bế Văn Đàn.",
+      "source": "Điện ảnh Quân đội Nhân dân & VTV Đặc biệt",
+      "videoUrl": "https://www.youtube.com/watch?v=Dykwdja71IU",
+      "preQuestions": [
+        "Chiến dịch Điện Biên Phủ do vị Tổng Tư lệnh kiêm Chỉ huy trưởng chiến dịch nào lãnh đạo?",
+        "Vì sao thực dân Pháp lại tự tin tuyên bố Điện Biên Phủ là pháo đài bất khả xâm phạm?"
+      ],
+      "postQuestions": [
+        "Hành động dũng cảm chèn lưng cứu pháo của anh hùng Tô Vĩnh Diện thể hiện tinh thần cách mạng gì?",
+        "Ý nghĩa lịch sử to lớn của Chiến thắng Điện Biên Phủ năm 1954 đối với phong trào giải phóng dân tộc trên thế giới?"
+      ]
+    },
+    {
+      "id": "mov-6",
+      "title": "Phim tư liệu màu: Thời khắc lịch sử 11h30 ngày 30/4/1975 – Non sông thống nhất",
+      "category": "documentary",
+      "categoryLabel": "Thước phim tư liệu quý",
+      "grade": 5,
+      "period": "Kháng chiến chống Mỹ",
+      "duration": "11 phút 05 giây",
+      "thumbnailColor": "from-orange-700 to-stone-900",
+      "summary": "Những thước phim tư liệu quý giá về đoàn xe tăng quân giải phóng tiến vào Sài Gòn, xe tăng húc đổ cánh cổng sắt Dinh Độc Lập, cắm cờ giải phóng trên nóc dinh, đánh dấu mốc son toàn thắng non sông Việt Nam liền một dải.",
+      "source": "Đài Truyền hình Việt Nam (VTV) & Bảo tàng Lịch sử Quân sự Việt Nam",
+      "videoUrl": "https://www.youtube.com/watch?v=ecJSxFzvSKk",
+      "preQuestions": [
+        "Lá cờ Mặt trận Dân tộc Giải phóng miền Nam được cắm trên nóc Dinh Độc Lập vào đúng thời khắc nào?",
+        "Tên chiến dịch quân sự mang tên Bác Hồ vĩ đại giải phóng hoàn toàn miền Nam là gì?"
+      ],
+      "postQuestions": [
+        "Vì sao ngày 30/4 hằng năm là Ngày hội non sông thống nhất, ngày hòa bình của toàn thể dân tộc ta?",
+        "Thế hệ học sinh hôm nay cần rèn luyện những phẩm chất gì để xứng đáng với sự hy sinh của các thế hệ cha anh?"
+      ]
+    },
+    {
+      "id": "mov-7",
+      "title": "Hoạt hình lịch sử: Vua Quang Trung đại phá 29 vạn quân Thanh – Trận Ngọc Hồi Đống Đa 1789",
+      "category": "animation",
+      "categoryLabel": "Hoạt hình lịch sử",
+      "grade": 4,
+      "period": "Các triều đại quân chủ độc lập",
+      "duration": "13 phút 20 giây",
+      "thumbnailColor": "from-amber-600 to-rose-900",
+      "summary": "Khắc họa cuộc hành quân thần tốc của Hoàng đế Quang Trung (Nguyễn Huệ) từ Phú Xuân ra Thăng Long, dùng trận rơm bện ướt phá đồn Ngọc Hồi, đánh tan 29 vạn quân xâm lược Mãn Thanh vào đúng sáng mùng 5 Tết Kỷ Dậu 1789.",
+      "source": "Phim Hoạt hình Lịch sử Việt Nam & Hội Khoa học Lịch sử",
+      "videoUrl": "https://www.youtube.com/watch?v=JpuOBMLx2u4",
+      "preQuestions": [
+        "Nguyễn Huệ đã làm lễ lên ngôi Hoàng đế lấy niên hiệu Quang Trung tại đâu trước khi tiến quân ra Bắc?",
+        "Lời hiểu dụ của vua Quang Trung thể hiện quyết tâm bảo vệ bản sắc và độc lập dân tộc như thế nào?"
+      ],
+      "postQuestions": [
+        "Yếu tố bất ngờ và nghệ thuật hành quân thần tốc nào đã giúp quân Tây Sơn chiến thắng quân Thanh chỉ trong 5 ngày đêm?",
+        "Ý nghĩa của Chiến thắng Ngọc Hồi - Đống Đa mùa xuân năm 1789 đối với lịch sử nước nhà?"
+      ]
+    },
+    {
+      "id": "mov-8",
+      "title": "Phim tư liệu di sản: Quần thể Di tích Cố đô Huế – Di sản Văn hóa Thế giới",
+      "category": "documentary",
+      "categoryLabel": "Phim tư liệu quý",
+      "grade": 5,
+      "period": "Các triều đại quân chủ độc lập",
+      "duration": "12 phút 45 giây",
+      "thumbnailColor": "from-purple-800 to-stone-900",
+      "summary": "Khám phá toàn cảnh kiến trúc Kinh thành Huế, Ngọ Môn, Điện Thái Hòa, lăng tẩm các vua triều Nguyễn và nghệ thuật Nhã nhạc cung đình Huế được UNESCO vinh danh là Di sản văn hóa thế giới.",
+      "source": "Trung tâm Bảo tồn Di tích Cố đô Huế & VTV",
+      "videoUrl": "https://www.youtube.com/watch?v=SVCcsqD_BkY",
+      "preQuestions": [
+        "Kinh thành Huế được xây dựng dọc theo đôi bờ dòng sông thơ mộng nào của miền Trung?",
+        "Quần thể di tích Cố đô Huế được tổ chức quốc tế nào công nhận là Di sản Văn hóa Thế giới đầu tiên của Việt Nam?"
+      ],
+      "postQuestions": [
+        "Nêu các công trình kiến trúc tiêu biểu nhất bên trong Hoàng thành và Tử Cấm Thành Huế.",
+        "Trách nhiệm của thế hệ trẻ trong việc giữ gìn và phát huy các giá trị di sản văn hóa truyền thống của dân tộc là gì?"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "lessonCode": "LS4-B02",
+      "lessonTitle": "Nước Văn Lang và Âu Lạc",
+      "grade": 4,
+      "question": "Ai là người lãnh đạo nhân dân hợp nhất người Lạc Việt và Tây Âu để lập nên nước Âu Lạc?",
+      "options": [
+        "Vua Hùng Vương thứ 18",
+        "Thục Phán (An Dương Vương)",
+        "Ngô Quyền",
+        "Lý Nam Đế"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thục Phán đã chỉ huy nhân dân đánh tan quân xâm lược Tần, sau đó hợp nhất Tây Âu và Lạc Việt lập nên nước Âu Lạc, xưng An Dương Vương.",
+      "source": "SGK Lịch sử và Địa lí 4 - Bộ Kết nối tri thức với cuộc sống (Trang 18)",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-2",
+      "lessonCode": "LS4-B04",
+      "lessonTitle": "Chiến thắng Bạch Đằng năm 938 của Ngô Quyền",
+      "grade": 4,
+      "question": "Trong chiến thắng Bạch Đằng năm 938, Ngô Quyền đã áp dụng kế sách thông minh nào để đánh tan quân Nam Hán?",
+      "options": [
+        "Cho quân mai phục trên núi cao lăn đá xuống",
+        "Đóng cọc gỗ lim vót nhọn bịt sắt cắm ngầm dưới sông kết hợp con nước thủy triều",
+        "Dùng voi chiến tấn công thẳng vào doanh trại giặc",
+        "Đốt lửa tạo hỏa công trên toàn bộ dòng sông"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ngô Quyền đã cho đẽo nhọn cọc gỗ bịt sắt cắm dưới lòng sông Bạch Đằng. Khi triều lên dụ địch vào sâu, lúc triều rút thuyền giặc vướng cọc tan tành.",
+      "source": "Đại Việt sử ký toàn thư & SGK Lịch sử 4 (Trang 28)",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-3",
+      "lessonCode": "LS4-B03",
+      "lessonTitle": "Khởi nghĩa Hai Bà Trưng và các cuộc khởi nghĩa thời Bắc thuộc",
+      "grade": 4,
+      "question": "Khởi nghĩa Hai Bà Trưng phất cờ tại cửa sông nào vào mùa xuân năm 40?",
+      "options": [
+        "Cửa sông Bạch Đằng",
+        "Cửa sông Gianh",
+        "Cửa sông Hát (Hát Môn)",
+        "Cửa sông Như Nguyệt"
+      ],
+      "correctIndex": 2,
+      "explanation": "Mùa xuân năm 40, Trưng Trắc cùng Trưng Nhị làm lễ xuất quân khởi nghĩa tại cửa sông Hát (Hát Môn, nay thuộc Phúc Thọ, Hà Nội).",
+      "source": "SGK Lịch sử và Địa lí 4 (Trang 22)",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-4",
+      "lessonCode": "LS5-B01",
+      "lessonTitle": "Bác Hồ đọc Tuyên ngôn Độc lập",
+      "grade": 5,
+      "question": "Ngày 2/9/1945, tại Quảng trường Ba Đình lịch sử, Chủ tịch Hồ Chí Minh đã đọc văn kiện quan trọng nào?",
+      "options": [
+        "Hịch tướng sĩ",
+        "Bình Ngô đại cáo",
+        "Bản Tuyên ngôn Độc lập",
+        "Lời kêu gọi Toàn quốc kháng chiến"
+      ],
+      "correctIndex": 2,
+      "explanation": "Chủ tịch Hồ Chí Minh đã đọc bản Tuyên ngôn Độc lập khai sinh ra nước Việt Nam Dân chủ Cộng hòa.",
+      "source": "SGK Lịch sử và Địa lí 5 - Bộ Kết nối tri thức với cuộc sống",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-5",
+      "lessonCode": "LS5-B02",
+      "lessonTitle": "Chiến dịch Điện Biên Phủ 1954",
+      "grade": 5,
+      "question": "Trong chiến dịch Điện Biên Phủ 1954, người anh hùng nào đã lấy thân mình chèn bánh pháo trên đèo dốc?",
+      "options": [
+        "Phan Đình Giót",
+        "Tô Vĩnh Diện",
+        "Bế Văn Đàn",
+        "Cù Chính Lan"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anh hùng Tô Vĩnh Diện đã dũng cảm lấy thân mình chèn vào bánh pháo cứu khẩu pháo cao xạ không bị rơi xuống vực sâu trên dốc Chuối.",
+      "source": "Bảo tàng Chiến thắng lịch sử Điện Biên Phủ & SGK Lớp 5",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-6",
+      "lessonCode": "LS4-B06",
+      "lessonTitle": "Thăng Long - Hà Nội ngàn năm văn hiến",
+      "grade": 4,
+      "question": "Năm 1010, vị vua nào đã quyết định dời đô từ Hoa Lư về Đại La và đổi tên thành Thăng Long?",
+      "options": [
+        "Lý Thái Tổ (Lý Công Uẩn)",
+        "Đinh Tiên Hoàng",
+        "Lê Hoàn",
+        "Trần Hưng Đạo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mùa thu năm Canh Tuất 1010, vua Lý Thái Tổ ban Chiếu dời đô dời kinh đô từ Hoa Lư về thành Đại La, thấy rồng vàng bay lên nên đổi tên là Thăng Long.",
+      "source": "Chiếu dời đô & SGK Lịch sử và Địa lí 4",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-7",
+      "lessonCode": "LS5-B05",
+      "lessonTitle": "Đại thắng mùa Xuân năm 1975",
+      "grade": 5,
+      "question": "Xe tăng số hiệu 390 và 843 đã húc đổ cánh cổng của địa danh lịch sử nào trưa ngày 30/4/1975?",
+      "options": [
+        "Cột cờ Hà Nội",
+        "Dinh Độc Lập",
+        "Bến cảng Nhà Rồng",
+        "Ngọ Môn Huế"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vào lúc 11h30 ngày 30/4/1975, xe tăng quân giải phóng đã húc đổ cổng Dinh Độc Lập, cắm lá cờ chiến thắng lên nóc Dinh, đánh dấu non sông thu về một mối.",
+      "source": "SGK Lịch sử và Địa lí 5 & Bảo tàng Lịch sử Quân sự Việt Nam",
+      "truthLayer": "verified"
+    },
+    {
+      "id": "quiz-8",
+      "lessonCode": "LS4-B05",
+      "lessonTitle": "Nghệ thuật quân sự và lòng yêu nước thời Trần",
+      "grade": 4,
+      "question": "Câu nói nổi tiếng \"Nếu bệ hạ muốn hàng, trước hết hãy chém đầu thần đi đã!\" là của ai?",
+      "options": [
+        "Trần Quốc Toản",
+        "Trần Hưng Đạo (Trần Quốc Tuấn)",
+        "Trần Thủ Độ",
+        "Yết Kiêu"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trước thế giặc Nguyên Mông hung hãn, Hưng Đạo Đại Vương Trần Quốc Tuấn đã khẳng khái tâu với vua Trần Thánh Tông câu nói lưu danh thiên cổ đó.",
+      "source": "Đại Việt sử ký toàn thư & SGK Lịch sử 4",
+      "truthLayer": "verified"
+    }
+  ],
+  "illustrations": []
+}

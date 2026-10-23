@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Dấu Ấn Non Sông",
+  "description": "Dấu Ấn Non Sông - Hành trình khám phá lịch sử Việt Nam cùng AI dành cho học sinh tiểu học lớp 4–5.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
